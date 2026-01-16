@@ -17,6 +17,7 @@ function App() {
             placeholder ="Type the name"
             onChange = {saveInputText}
             size = "50"
+            maxLength={3}
           />
           <p>{inputText}, I'm Gay</p>
       </>
